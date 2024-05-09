@@ -4193,9 +4193,12 @@ section.men-banner.spad {
 	}
 	.inner-header .logo {
 		text-align: center;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 	.inner-header .nav-right {
-		text-align: left;
+		text-align: center;
 	}
 	.inner-header .nav-right li:first-child {
 		margin-left: 0;
@@ -4204,10 +4207,16 @@ section.men-banner.spad {
 		padding: 14px 50px 14px 18px;
 	}
 	.nav-item {
-		background: transparent;
+		background: #252525;
 	}
 	.nav-item .nav-menu {
+		display: block;
+	}
+	nav.nav-menu.mobile-menu {
 		display: none;
+	}
+	.nav-item .nav-menu li {
+		display: block;
 	}
 	.nav-item .nav-depart {
 		display: none;
@@ -4282,6 +4291,29 @@ section.men-banner.spad {
 	}
 	.checkout-content input {
 		margin-top: 50px;
+	}
+	.inner-header .nav-right li.heart-icon a {
+		right: auto;
+	}
+	.inner-header .advanced-search {
+		margin-left: 0px;
+	}
+	.product-large {
+		height: auto;
+		padding-top: 0px;
+		margin-bottom: 10px;
+	}
+
+	.product-large a {
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 500;
+		display: inline-block;
+		margin: 40px auto 0;
+		padding: 10px 0 10px;
+		position: relative;
+		width: 160px;
+		background: #db3838;
 	}
 }
 
@@ -4365,6 +4397,54 @@ section.men-banner.spad {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+	.quicklink-name {
+		display: block;
+		margin-bottom: 60px;
+	}
+	.inner-header .advanced-search {
+		margin-top: 10px;
+	}
+	a.quicklink-separate h5 {
+		margin-bottom: 20px;
+		font-weight: 600;
+	}
+	a.quicklink-separater {
+		display: none;
+	}
+	a.quicklink-text h5 {
+		margin-bottom: 10px;
+	}
+	.filter-control ul li {
+		margin-bottom: 15px;
+		margin-right: 10px;
+	}
+	.single-latest-blog .latest-text .tag-list {
+		top: 150px;
+	}
+	.newslatter-item .newslatter-item-inner {
+		display: block;
+	}
+	.newslatter-item .subscribe-form {
+		margin-top: 10px;
+		max-width: 100%;
+		min-width: 50%;
+	}
+	.latest-blog {
+		padding-top: 20px;
+		padding-bottom: 40px
+	}
+	.banner-section {
+		padding: 40px 0 50px;
+	}
+	.mobile-logo-fixed {
+		position: fixed;
+		background-color: #fff;
+		z-index: 9;
+		padding-bottom: 10px;
+	}
+	.mobile-pt-90 {
+		padding-top: 90px;
+	}
 }
 
 
@@ -4415,5 +4495,9 @@ section.men-banner.spad {
 		color: #8f8e8e !important;
 		opacity: 0.6;
 		font-weight: 600 !important;
+	}
+
+	img.img-vector.d-lg-none {
+		display: none;
 	}
 }
